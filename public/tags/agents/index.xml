@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Agents on Gouri Shankar Swamy</title>
+    <link>http://localhost:1313/tags/agents/</link>
+    <description>Recent content in Agents on Gouri Shankar Swamy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 12 Apr 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/agents/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Agents Are Ready. Is Your Data?</title>
+      <link>http://localhost:1313/articles/agents-are-ready/</link>
+      <pubDate>Sun, 12 Apr 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/agents-are-ready/</guid>
+      <description>Enterprise data must transform to support AI agents, not just AI tools.</description>
+    </item>
+    <item>
+      <title>Security in the Age of Agency</title>
+      <link>http://localhost:1313/articles/security-age-of-agency/</link>
+      <pubDate>Sun, 15 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/security-age-of-agency/</guid>
+      <description>As AI agents gain autonomy, security must evolve from gatekeeping to governance.</description>
+    </item>
+  </channel>
+</rss>

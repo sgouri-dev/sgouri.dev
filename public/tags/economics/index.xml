@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Economics on Gouri Shankar Swamy</title>
+    <link>http://localhost:1313/tags/economics/</link>
+    <description>Recent content in Economics on Gouri Shankar Swamy</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 15 Mar 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/economics/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Right-Sizing Intelligence: From Cloudonomics to Tokenomics</title>
+      <link>http://localhost:1313/articles/right-sizing-intelligence/</link>
+      <pubDate>Sun, 15 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/articles/right-sizing-intelligence/</guid>
+      <description>The economics of AI are shifting — understanding tokenomics is the new capacity planning.</description>
+    </item>
+  </channel>
+</rss>

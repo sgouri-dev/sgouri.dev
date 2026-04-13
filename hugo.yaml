@@ -1,0 +1,67 @@
+baseURL: "https://sgouri.dev/"
+languageCode: "en-us"
+title: "Gouri Shankar Swamy"
+theme: "PaperMod"
+paginate: 10
+
+params:
+  env: production
+  description: "A practitioner's perspective on building with AI in the real world — from imagination to execution."
+  author: "Gouri Shankar Swamy"
+  defaultTheme: light
+  disableThemeToggle: true
+  ShowReadingTime: true
+  ShowShareButtons: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowToc: true
+  TocOpen: false
+  comments: false
+
+  homeInfoParams:
+    Title: "AI & Enterprise Technology"
+    Content: "A practitioner's perspective on building with AI in the real world — from imagination to execution."
+
+  # socialIcons:
+  #   - name: linkedin
+  #     url: "https://www.linkedin.com/in/gouri-shankar-swamy-1413458"
+  #   - name: github
+  #     url: "https://github.com/sgouri-dev"
+
+  cover:
+    linkFullImages: true
+    responsiveImages: true
+
+  ShareButtons:
+    - linkedin
+    - x
+    - clipboard
+
+  assets:
+    favicon: "/favicon.ico"
+
+  label:
+    text: "sgouri.dev"
+
+menu:
+  main:
+    - name: Articles
+      url: /articles/
+      weight: 1
+    - name: About
+      url: /about/
+      weight: 2
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
