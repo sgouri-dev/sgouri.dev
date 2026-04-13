@@ -7,7 +7,6 @@ cover:
   alt: "Dreamer's Paradise banner"
 tags: ["AI", "Enterprise", "Strategy"]
 series: ["AI & Enterprise Technology"]
-ShowToc: true
 ---
 
 ## The Age-Old Problem

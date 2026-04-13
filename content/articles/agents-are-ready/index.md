@@ -7,7 +7,6 @@ cover:
   alt: "Agents Are Ready banner"
 tags: ["AI", "Agents", "Data", "Enterprise"]
 series: ["AI & Enterprise Technology"]
-ShowToc: true
 ---
 
 *Humans compensate for bad data. Agents can't. Here's what changes.*

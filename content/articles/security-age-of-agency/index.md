@@ -7,7 +7,6 @@ cover:
   alt: "Security in the Age of Agency banner"
 tags: ["AI", "Security", "Agents"]
 series: ["AI & Enterprise Technology"]
-ShowToc: true
 ---
 
 We are moving from a world of assisted software to a world of agentic software. The difference isn't just speed—it's responsibility.

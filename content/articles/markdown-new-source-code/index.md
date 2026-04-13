@@ -7,7 +7,6 @@ cover:
   alt: "Markdown Is the New Source Code banner"
 tags: ["AI", "Markdown", "Development"]
 series: ["AI & Enterprise Technology"]
-ShowToc: true
 ---
 
 *Why intent, structure, and language are becoming first-class citizens in software.*

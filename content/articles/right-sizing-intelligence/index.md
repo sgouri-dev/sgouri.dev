@@ -7,7 +7,6 @@ cover:
   alt: "Right-Sizing Intelligence banner"
 tags: ["AI", "Economics", "Enterprise"]
 series: ["AI & Enterprise Technology"]
-ShowToc: true
 ---
 
 Here's a pattern I keep seeing in teams building with LLMs.

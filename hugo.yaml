@@ -15,8 +15,7 @@ params:
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
-  ShowToc: true
-  TocOpen: false
+  ShowToc: false
   comments: false
 
   homeInfoParams:
