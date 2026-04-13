@@ -23,6 +23,8 @@ The AI industry is relearning the same lesson with a different currency. Tokens.
 
 ## What Models Actually Cost
 
+![What Models Actually Cost — Per 1 Million tokens](what-models-cost.png)
+
 That last column is the one nobody looks at.
 
 In agentic systems, prompts don't fire once. They fire in cycles — reflection steps, tool calls, retries, self-correction. A single model choice doesn't add cost. It compounds it.
@@ -48,6 +50,10 @@ High-volume, deterministic tasks. Classification, extraction, routing, subagent 
 Anything deterministic, rules-based, or latency-critical. Date parsing. Regex. Validation. Don't pay a model to do what a function does in microseconds for free.
 
 The rule: start at the bottom. Escalate only when the task demands it.
+
+## Matching the Model to the Task
+
+![Matching the Model to the Task](match-model-to-task.png)
 
 ## How to Architect for This
 

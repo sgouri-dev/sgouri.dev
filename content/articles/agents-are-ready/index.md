@@ -3,7 +3,7 @@ title: "Agents Are Ready. Is Your Data?"
 date: 2026-04-12
 description: "Enterprise data must transform to support AI agents, not just AI tools."
 cover:
-  image: banner.png
+  image: banner.jpeg
   alt: "Agents Are Ready banner"
 tags: ["AI", "Agents", "Data", "Enterprise"]
 series: ["AI & Enterprise Technology"]
@@ -28,6 +28,8 @@ When humans use AI as a tool, they fill the gaps. They bring domain knowledge, r
 Agents don't know any of that. They can't ask. They act.
 
 The moment you move from AI-as-tool to AI-as-agent, the bar for data readiness doesn't go up incrementally. It transforms categorically.
+
+![Humans compensate for bad data. Agents can't.](humans-vs-agents.jpeg)
 
 ## The Accuracy Cliff Is Real
 
