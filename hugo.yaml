@@ -20,8 +20,8 @@ params:
   comments: false
 
   homeInfoParams:
-    Title: "AI & Enterprise Technology"
-    Content: "A practitioner's perspective on building with AI in the real world — from imagination to execution."
+    Title: "Building Intelligence"
+    Content: "An engineer's perspective on AI, agents, and autonomous systems — from imagination to execution."
 
   # socialIcons:
   #   - name: linkedin
