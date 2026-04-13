@@ -157,6 +157,36 @@ Requires Hugo extended v0.160.1+ installed via `brew install hugo`.
 
 ---
 
+## Content & Branding
+
+- **Site title**: "Building Intelligence"
+- **Subtitle**: "An engineer's perspective on AI, agents, and autonomous systems — from imagination to execution."
+- **About page**: Short, no company affiliation — "Engineer by practice. Builder by nature."
+- **Social icons**: Disabled for now (LinkedIn, GitHub commented out in hugo.yaml)
+- **X/Twitter**: @gouriswamy1 — bio aligns with site voice
+
+### Articles (5 stubs, content to be added from LinkedIn)
+
+| # | Title | Slug | Date |
+|---|-------|------|------|
+| 1 | Dreamer's Paradise: AI from Imagination to Execution | `dreamers-paradise` | 2025-12-13 |
+| 2 | Markdown Is the New Source Code | `markdown-new-source-code` | 2026-01-15 |
+| 3 | Security in the Age of Agency | `security-age-of-agency` | 2026-02-15 |
+| 4 | Right-Sizing Intelligence: From Cloudonomics to Tokenomics | `right-sizing-intelligence` | 2026-03-15 |
+| 5 | Agents Are Ready. Is Your Data? | `agents-are-ready` | 2026-04-12 |
+
+### Adding a new article
+
+```bash
+# Create article folder
+mkdir -p content/articles/my-new-article
+
+# Add index.md with front matter + banner.png (1200x627px)
+# git add, commit, push — auto-deploys
+```
+
+---
+
 ## Setup Date
 
 April 12, 2026
