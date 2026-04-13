@@ -184,3 +184,5 @@ Security determines whether we trust it enough to let it act.
 In the age of agency, the most important systems won't be the smartest ones.
 
 They'll be the ones we trust to act on our behalf—within boundaries we understand, with risks we can contain, and with accountability we can stand behind.
+
+*As software gains agency, which systems are we truly prepared to trust with autonomous action — and why?*

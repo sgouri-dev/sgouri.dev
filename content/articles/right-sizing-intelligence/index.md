@@ -53,6 +53,8 @@ The rule: start at the bottom. Escalate only when the task demands it.
 
 ## Matching the Model to the Task
 
+*Cloud architects don't run every workload on the same instance type. Same principle applies here.*
+
 ![Matching the Model to the Task](match-model-to-task.png)
 
 ## How to Architect for This

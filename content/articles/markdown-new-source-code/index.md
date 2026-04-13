@@ -104,3 +104,5 @@ Markdown—simple, structured, human-first—is one early answer. Not the only o
 If you're building with AI, take your specifications seriously. Structure your intent. Write like the machine is listening—because it is.
 
 The source code is changing. And it looks a lot more like language than it used to.
+
+*What's the most important thing you've written lately that wasn't code?*
