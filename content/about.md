@@ -6,6 +6,8 @@ summary: "About Gouri Shankar Swamy and this site"
 ShowReadingTime: false
 ShowShareButtons: false
 ShowToc: false
+hidemeta: true
+disableShare: true
 ---
 
 **I'm Gouri Shankar Swamy.** Engineer by practice. Builder by nature.
