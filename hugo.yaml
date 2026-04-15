@@ -11,7 +11,7 @@ params:
   defaultTheme: light
   disableThemeToggle: true
   ShowReadingTime: true
-  ShowShareButtons: true
+  ShowShareButtons: false
   ShowPostNavLinks: false
   ShowBreadCrumbs: false
   ShowCodeCopyButtons: true
@@ -22,20 +22,11 @@ params:
     Title: "Building Intelligence"
     Content: "An engineer's perspective on AI, agents, and autonomous systems — from imagination to execution."
 
-  # socialIcons:
-  #   - name: linkedin
-  #     url: "https://www.linkedin.com/in/gouri-shankar-swamy-1413458"
-  #   - name: github
-  #     url: "https://github.com/sgouri-dev"
 
   cover:
     linkFullImages: true
     responsiveImages: true
 
-  ShareButtons:
-    - linkedin
-    - x
-    - clipboard
 
   assets:
     favicon: "/favicon.ico"
