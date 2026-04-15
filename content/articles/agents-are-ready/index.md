@@ -1,7 +1,7 @@
 ---
 title: "Agents Are Ready. Is Your Data?"
 date: 2026-04-12
-description: "Enterprise data must transform to support AI agents, not just AI tools."
+description: "Is Your Data Ready for the Agent Era?"
 cover:
   image: banner.jpeg
   alt: "Agents Are Ready banner"
@@ -9,13 +9,13 @@ tags: ["AI", "Agents", "Data", "Enterprise"]
 series: ["AI & Enterprise Technology"]
 ---
 
-*Humans compensate for bad data. Agents can't. Here's what changes.*
+*Humans compensate for bad data. Agents can't.*
 
 ## The Uncomfortable Number
 
 A March 2026 study by Harvard Business Review Analytic Services and Cloudera surveyed 230+ enterprise data leaders with a simple question: is your data ready for AI?
 
-Only 7% said yes.
+**Only 7% said yes.**
 
 Only 7%. Completely ready. The other 93% are not — and are running AI experiments on a foundation that was never designed for what they're asking it to do.
 
