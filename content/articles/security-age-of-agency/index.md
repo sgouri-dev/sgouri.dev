@@ -1,6 +1,6 @@
 ---
 title: "Security in the Age of Agency"
-date: 2026-02-15
+date: 2026-02-01
 description: "As AI agents gain autonomy, security must evolve from gatekeeping to governance."
 subject: "Security"
 cover:

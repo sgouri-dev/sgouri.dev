@@ -1,6 +1,6 @@
 ---
 title: "Agents Are Ready. Is Your Data?"
-date: 2026-04-12
+date: 2026-04-10
 description: "Is Your Data Ready for the Agent Era?"
 subject: "Data"
 cover:
