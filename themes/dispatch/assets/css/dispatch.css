@@ -249,7 +249,7 @@ main { flex: 1; }
 
 .colophon__grid {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 2fr 1fr;
   gap: 40px;
 }
 
@@ -286,47 +286,6 @@ main { flex: 1; }
   font-size: 12px;
   line-height: 1.9;
   color: var(--ink);
-}
-
-.colophon__subscribe-caption {
-  font-family: var(--serif);
-  font-size: var(--fs-colophon);
-  line-height: 1.55;
-  color: var(--dim);
-  margin: 0 0 10px;
-}
-
-.colophon__form {
-  display: flex;
-  border: 1px solid var(--rule);
-  border-radius: var(--r-sm);
-  background: var(--paper);
-  overflow: hidden;
-}
-
-.colophon__form input {
-  flex: 1;
-  background: transparent;
-  border: none;
-  outline: none;
-  padding: 10px 12px;
-  font-family: var(--mono);
-  font-size: 12px;
-  color: var(--ink);
-}
-
-.colophon__form input::placeholder { color: var(--dim); }
-
-.colophon__form button {
-  border: none;
-  background: var(--ink);
-  color: var(--paper);
-  font-family: var(--mono);
-  font-size: 10px;
-  letter-spacing: var(--ls-upper-18);
-  text-transform: uppercase;
-  padding: 0 16px;
-  cursor: pointer;
 }
 
 .colophon__strip {
@@ -531,7 +490,7 @@ main { flex: 1; }
   }
   .post-row__title { display: inline; font-size: 24px; }
   .post-row__meta { flex-wrap: wrap; }
-  .colophon__grid { grid-template-columns: 1fr; gap: 32px; }
+  .colophon__grid { grid-template-columns: 1fr; gap: 24px; }
   .colophon__strip { flex-direction: column; gap: 8px; }
   .article { padding: 40px var(--page-x) 64px; }
   .article__title { font-size: 36px; letter-spacing: -1px; }
