@@ -1,21 +1,12 @@
 {{ $year := now.Year }}
 {{ $author := .Site.Params.author | default .Site.Title }}
 <footer class="colophon">
-  <div class="colophon__grid">
-    <section>
-      <p class="colophon__label">Colophon</p>
-      <p class="colophon__body">
-        Set in <em>Fraunces</em> and <span class="mono">JetBrains&nbsp;Mono</span>. Built with Hugo &amp; Claude Code, composed on paper in {{ $year }}.
-      </p>
-    </section>
-
-    <section>
-      <p class="colophon__label">Elsewhere</p>
-      <div class="colophon__links">
-        <a href="{{ "/index.xml" | relURL }}">rss.xml ↗</a>
-      </div>
-    </section>
-  </div>
+  <section class="colophon__section">
+    <p class="colophon__label">Colophon</p>
+    <p class="colophon__body">
+      Set in <em>Fraunces</em> and <span class="mono">JetBrains&nbsp;Mono</span>. Built with Hugo &amp; Claude Code, composed on paper in {{ $year }}.
+    </p>
+  </section>
 
   <div class="colophon__strip">
     <span>© {{ $year }} — {{ $author }}</span>
