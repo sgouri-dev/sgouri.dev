@@ -3,9 +3,33 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ if .IsHome }}{{ .Site.Title }}{{ else }}{{ .Title }}{{ with .Params.subtitle }}: {{ . }}{{ end }} · {{ .Site.Title }}{{ end }}</title>
-  {{ with .Description | default .Site.Params.description }}<meta name="description" content="{{ . }}">{{ end }}
+  {{ $fullTitle := "" }}
+  {{ if .IsHome }}
+    {{ $fullTitle = .Site.Title }}
+  {{ else }}
+    {{ $t := .Title }}
+    {{ with .Params.subtitle }}{{ $t = printf "%s: %s" $t . }}{{ end }}
+    {{ $fullTitle = printf "%s · %s" $t .Site.Title }}
+  {{ end }}
+  {{ $desc := .Description | default .Site.Params.description }}
+  {{ $ogImage := absURL "og.png" }}
+  <title>{{ $fullTitle }}</title>
+  <meta name="description" content="{{ $desc }}">
   {{ with .Site.Params.author }}<meta name="author" content="{{ . }}">{{ end }}
+
+  <meta property="og:site_name" content="{{ .Site.Title }}">
+  <meta property="og:title" content="{{ $fullTitle }}">
+  <meta property="og:description" content="{{ $desc }}">
+  <meta property="og:url" content="{{ .Permalink }}">
+  <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}">
+  <meta property="og:image" content="{{ $ogImage }}">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta property="og:image:alt" content="{{ .Site.Params.description }}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{ $fullTitle }}">
+  <meta name="twitter:description" content="{{ $desc }}">
+  <meta name="twitter:image" content="{{ $ogImage }}">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

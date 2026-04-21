@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,400&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { width: 1200px; height: 630px; overflow: hidden; }
+  body {
+    background: #f5f1ea;
+    color: #1a1814;
+    font-family: 'Fraunces', Georgia, serif;
+    position: relative;
+  }
+  .eyebrow {
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    color: #5c7a3a;
+  }
+  .headline {
+    position: absolute;
+    top: 170px;
+    left: 80px;
+    right: 80px;
+    font-family: 'Fraunces', serif;
+    font-size: 78px;
+    font-weight: 500;
+    line-height: 1.02;
+    letter-spacing: -2.2px;
+    color: #1a1814;
+  }
+  .headline em {
+    font-style: italic;
+    font-weight: 400;
+    color: #5c7a3a;
+  }
+  .rule {
+    position: absolute;
+    left: 80px;
+    right: 80px;
+    bottom: 160px;
+    border-top: 1px solid #d8d2c6;
+  }
+  .byline {
+    position: absolute;
+    bottom: 100px;
+    left: 80px;
+    display: flex;
+    align-items: baseline;
+    gap: 20px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 18px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #6b645a;
+  }
+  .byline .name {
+    font-family: 'Fraunces', serif;
+    font-size: 26px;
+    font-weight: 500;
+    letter-spacing: -0.4px;
+    text-transform: none;
+    color: #1a1814;
+  }
+  .byline .dot { color: #d8d2c6; }
+</style>
+</head>
+<body>
+  <div class="eyebrow">—&nbsp;&nbsp;Building Intelligence</div>
+  <h1 class="headline">An engineer&rsquo;s perspective on AI, agents, and <em>autonomous systems</em>.</h1>
+  <div class="rule"></div>
+  <div class="byline">
+    <span class="name">Gouri Shankar Swamy</span>
+    <span class="dot">·</span>
+    <span>sgouri.dev</span>
+  </div>
+</body>
+</html>
