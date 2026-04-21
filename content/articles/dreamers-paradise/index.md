@@ -2,6 +2,7 @@
 title: "Dreamer's Paradise: AI from Imagination to Execution"
 date: 2025-12-13
 description: "The journey from AI imagination to real-world execution — bridging the gap between what we dream and what we ship."
+subject: "Essay"
 cover:
   image: banner.png
   alt: "Dreamer's Paradise banner"

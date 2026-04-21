@@ -2,6 +2,7 @@
 title: "Markdown Is the New Source Code"
 date: 2026-01-15
 description: "How markdown became the lingua franca of AI-native development and why that matters for enterprise builders."
+subject: "Language"
 cover:
   image: banner.png
   alt: "Markdown Is the New Source Code banner"

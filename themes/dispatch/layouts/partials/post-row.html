@@ -1,0 +1,19 @@
+{{- $page := .page -}}
+{{- $num := .num -}}
+{{- $subject := $page.Params.subject | default (index $page.Params.tags 0) | default "" -}}
+<a class="post-row" href="{{ $page.RelPermalink }}">
+  <span class="post-row__num">№{{ printf "%02d" $num }}</span>
+
+  <div class="post-row__title-col">
+    <h2 class="post-row__title">{{ $page.Title }}</h2>
+    {{ with $page.Description }}<p class="post-row__dek">{{ . }}</p>{{ end }}
+    <div class="post-row__meta">
+      <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "Jan 2, 2006" | upper }}</time>
+      <span class="post-row__read">Read →</span>
+    </div>
+  </div>
+
+  <span class="post-row__tag">{{ with $subject }}<span>{{ . }}</span>{{ end }}</span>
+
+  <span class="post-row__time">{{ $page.ReadingTime }} min</span>
+</a>

@@ -1,0 +1,21 @@
+{{ define "main" }}
+  {{ $pages := .Pages }}
+  {{ $total := len $pages }}
+
+  <section class="section-header">
+    <h1 class="section-header__title">{{ .Title }}</h1>
+  </section>
+
+  <div class="index-head" role="row">
+    <span>№</span>
+    <span>Dispatch</span>
+    <span class="index-head__subject">Subject</span>
+    <span class="index-head__time">Time</span>
+  </div>
+
+  <div class="post-list">
+    {{ range $i, $p := $pages }}
+      {{ partial "post-row.html" (dict "page" $p "num" (sub $total $i)) }}
+    {{ end }}
+  </div>
+{{ end }}

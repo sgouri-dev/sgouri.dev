@@ -1,0 +1,11 @@
+{{ $currentURL := .RelPermalink }}
+<header class="masthead">
+  <a href="{{ "/" | relURL }}" class="masthead__name">{{ .Site.Params.author | default .Site.Title }}</a>
+  <span class="masthead__domain">{{ .Site.Params.label.text | default "sgouri.dev" }}</span>
+  <span class="masthead__spacer"></span>
+  <nav class="masthead__nav" aria-label="Primary">
+    <a href="{{ "/" | relURL }}" class="{{ if eq $currentURL "/" }}is-current{{ end }}">Index</a>
+    <a href="{{ "/about/" | relURL }}" class="{{ if hasPrefix $currentURL "/about" }}is-current{{ end }}">About</a>
+    <a href="{{ "/index.xml" | relURL }}">RSS</a>
+  </nav>
+</header>

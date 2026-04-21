@@ -1,32 +1,13 @@
 baseURL: "https://sgouri.dev/"
 languageCode: "en-us"
 title: "Gouri Shankar Swamy"
-theme: "PaperMod"
-paginate: 10
+theme: "dispatch"
+paginate: 100
 
 params:
   env: production
-  description: "A practitioner's perspective on building with AI in the real world — from imagination to execution."
+  description: "An engineer's perspective on AI, agents, and autonomous systems — from imagination to execution."
   author: "Gouri Shankar Swamy"
-  defaultTheme: light
-  disableThemeToggle: true
-  ShowReadingTime: true
-  ShowShareButtons: false
-  ShowPostNavLinks: false
-  ShowBreadCrumbs: false
-  ShowCodeCopyButtons: true
-  ShowToc: false
-  comments: false
-
-  homeInfoParams:
-    Title: "Building Intelligence"
-    Content: "An engineer's perspective on AI, agents, and autonomous systems — from imagination to execution."
-
-
-  cover:
-    linkFullImages: true
-    responsiveImages: true
-
 
   assets:
     favicon: "/favicon.ico"
@@ -36,8 +17,8 @@ params:
 
 menu:
   main:
-    - name: Articles
-      url: /articles/
+    - name: Index
+      url: /
       weight: 1
     - name: About
       url: /about/
@@ -47,7 +28,6 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON
 
 markup:
   goldmark:

@@ -1,0 +1,80 @@
+/* sgouri.dev — Dispatch design tokens
+ * Source of truth for the design. Drop into assets/css/ and import before component styles.
+ * Locked tweaks: Paper palette, Moss accent, Fraunces serif, Namecard masthead,
+ * Statement hero, Comfortable density, deks on.
+ */
+
+:root {
+  /* ─── Colors ───────────────────────────────────────── */
+  --paper:   #f5f1ea;  /* page background */
+  --paper-2: #efe9dc;  /* colophon / footer background */
+  --ink:     #1a1814;  /* primary text, avatar, button bg */
+  --dim:     #6b645a;  /* secondary text, meta, dek */
+  --rule:    #d8d2c6;  /* borders, dividers, middots */
+  --hover:   #ede7dd;  /* post row hover background */
+  --accent:  #5c7a3a;  /* Moss — eyebrow, italic phrases, hover */
+
+  /* ─── Type families ────────────────────────────────── */
+  --serif: 'Fraunces', 'Source Serif 4', Georgia, serif;
+  --sans:  'Inter', system-ui, -apple-system, sans-serif;
+  --mono:  'JetBrains Mono', 'IBM Plex Mono', ui-monospace, monospace;
+
+  /* ─── Spacing ──────────────────────────────────────── */
+  --page-x:   56px;
+  --row-y:    30px;  /* Comfortable density */
+  --hero-y-t: 64px;
+  --hero-y-b: 52px;
+
+  /* ─── Radii ────────────────────────────────────────── */
+  --r-sm: 2px;
+
+  /* ─── Font sizes (keep in sync with README type scale) ─ */
+  --fs-hero:      84px;
+  --fs-title:     30px;
+  --fs-num:       30px;
+  --fs-dek:       15px;
+  --fs-name:      20px;
+  --fs-eyebrow:   10.5px;
+  --fs-nav:       10.5px;
+  --fs-meta:      10px;
+  --fs-tag:       10.5px;
+  --fs-colophon:  14px;
+  --fs-strip:     10px;
+
+  /* ─── Tracking tokens ──────────────────────────────── */
+  --ls-hero:   -2.4px;
+  --ls-title:  -0.6px;
+  --ls-name:   -0.3px;
+  --ls-upper-2:  2px;
+  --ls-upper-15: 1.5px;
+  --ls-upper-14: 1.4px;
+  --ls-upper-16: 1.6px;
+  --ls-upper-18: 1.8px;
+}
+
+/* Baseline */
+html, body {
+  margin: 0;
+  padding: 0;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a { color: inherit; text-decoration: none; }
+
+/* Entrance animation for post rows */
+@keyframes rise {
+  from { opacity: 0; transform: translateY(8px); }
+  to   { opacity: 1; transform: none; }
+}
+.post-row { animation: rise 500ms cubic-bezier(.2,.7,.3,1) both; }
+.post-row:nth-child(1) { animation-delay:   0ms; }
+.post-row:nth-child(2) { animation-delay:  80ms; }
+.post-row:nth-child(3) { animation-delay: 160ms; }
+.post-row:nth-child(4) { animation-delay: 240ms; }
+.post-row:nth-child(5) { animation-delay: 320ms; }
+.post-row:nth-child(6) { animation-delay: 400ms; }
+.post-row:nth-child(7) { animation-delay: 480ms; }

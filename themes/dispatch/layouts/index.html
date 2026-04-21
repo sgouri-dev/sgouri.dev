@@ -1,0 +1,33 @@
+{{ define "main" }}
+  {{ $pages := where .Site.RegularPages "Section" "articles" }}
+  {{ $total := len $pages }}
+  {{ $count := len $pages }}
+
+  <section class="hero">
+    <p class="hero__eyebrow">—&nbsp;&nbsp;Building Intelligence</p>
+    <h1 class="hero__headline">An engineer&rsquo;s perspective on AI, agents, and <em>autonomous systems</em>.</h1>
+    <div class="hero__byline">
+      <span class="hero__avatar" aria-hidden="true">G</span>
+      <div class="hero__meta">
+        <span>By {{ .Site.Params.author | default "Gouri Shankar Swamy" }}</span>
+        <span class="dot">·</span>
+        <span>{{ $count }} Dispatch{{ if ne $count 1 }}es{{ end }}</span>
+        <span class="dot">·</span>
+        <span>Updated {{ (index $pages 0).Date.Format "Jan 2006" }}</span>
+      </div>
+    </div>
+  </section>
+
+  <div class="index-head" role="row">
+    <span>№</span>
+    <span>Dispatch</span>
+    <span class="index-head__subject">Subject</span>
+    <span class="index-head__time">Time</span>
+  </div>
+
+  <div class="post-list">
+    {{ range $i, $p := $pages }}
+      {{ partial "post-row.html" (dict "page" $p "num" (sub $total $i)) }}
+    {{ end }}
+  </div>
+{{ end }}

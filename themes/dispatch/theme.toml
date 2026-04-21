@@ -1,0 +1,8 @@
+name = "Dispatch"
+license = "MIT"
+description = "Editorial Hugo theme for sgouri.dev — warm paper, Fraunces display, JetBrains Mono metadata, moss accent."
+homepage = "https://sgouri.dev/"
+min_version = "0.100.0"
+
+[author]
+  name = "Gouri Shankar Swamy"

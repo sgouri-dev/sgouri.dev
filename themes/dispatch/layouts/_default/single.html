@@ -1,0 +1,34 @@
+{{ define "main" }}
+  {{ $subject := .Params.subject | default (index .Params.tags 0) | default "" }}
+  <article class="article">
+    {{ with $subject }}<p class="article__eyebrow">—&nbsp;&nbsp;{{ . }}</p>{{ end }}
+    <h1 class="article__title">{{ .Title }}</h1>
+
+    {{ if not .Params.hidemeta }}
+      <div class="article__meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" | upper }}</time>
+        <span class="dot">·</span>
+        <span>{{ .ReadingTime }} min read</span>
+        {{ with .Params.author | default .Site.Params.author }}
+          <span class="dot">·</span>
+          <span>By {{ . }}</span>
+        {{ end }}
+      </div>
+    {{ end }}
+
+    {{ with .Params.cover }}
+      {{ $img := $.Resources.GetMatch .image }}
+      {{ if $img }}
+        <figure class="article__cover">
+          <img src="{{ $img.RelPermalink }}" alt="{{ .alt | default $.Title }}">
+        </figure>
+      {{ end }}
+    {{ end }}
+
+    <div class="article__body">
+      {{ .Content }}
+    </div>
+
+    <a class="article__back" href="{{ "/" | relURL }}">← Back to index</a>
+  </article>
+{{ end }}
