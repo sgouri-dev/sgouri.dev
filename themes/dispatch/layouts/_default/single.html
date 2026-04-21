@@ -3,6 +3,7 @@
   <article class="article">
     {{ with $subject }}<p class="article__eyebrow">—&nbsp;&nbsp;{{ . }}</p>{{ end }}
     <h1 class="article__title">{{ .Title }}</h1>
+    {{ with .Params.subtitle }}<p class="article__subtitle">{{ . }}</p>{{ end }}
 
     {{ if not .Params.hidemeta }}
       <div class="article__meta">

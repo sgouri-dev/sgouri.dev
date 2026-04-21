@@ -5,7 +5,7 @@
   <span class="post-row__num">№{{ printf "%02d" $num }}</span>
 
   <div class="post-row__title-col">
-    <h2 class="post-row__title">{{ $page.Title }}</h2>
+    <h2 class="post-row__title">{{ $page.Title }}{{ with $page.Params.subtitle }}: {{ . }}{{ end }}</h2>
     {{ with $page.Description }}<p class="post-row__dek">{{ . }}</p>{{ end }}
     <div class="post-row__meta">
       <time datetime="{{ $page.Date.Format "2006-01-02" }}">{{ $page.Date.Format "Jan 2, 2006" | upper }}</time>

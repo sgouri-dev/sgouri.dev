@@ -1,5 +1,6 @@
 ---
-title: "Dreamer's Paradise: AI from Imagination to Execution"
+title: "Dreamer's Paradise"
+subtitle: "AI from Imagination to Execution"
 date: 2025-12-13
 description: "The journey from AI imagination to real-world execution — bridging the gap between what we dream and what we ship."
 subject: "Essay"

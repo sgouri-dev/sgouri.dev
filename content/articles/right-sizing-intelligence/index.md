@@ -1,5 +1,6 @@
 ---
-title: "Right-Sizing Intelligence: From Cloudonomics to Tokenomics"
+title: "Right-Sizing Intelligence"
+subtitle: "From Cloudonomics to Tokenomics"
 date: 2026-03-15
 description: "The economics of AI are shifting — understanding tokenomics is the new capacity planning."
 subject: "Economics"
