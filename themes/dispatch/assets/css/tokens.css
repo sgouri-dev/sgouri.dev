@@ -10,6 +10,7 @@
   --paper-2: #efe9dc;  /* colophon / footer background */
   --ink:     #1a1814;  /* primary text, avatar, button bg */
   --dim:     #6b645a;  /* secondary text, meta, dek */
+  --label:   #3f3a32;  /* mono uppercase labels — higher contrast than --dim */
   --rule:    #d8d2c6;  /* borders, dividers, middots */
   --hover:   #ede7dd;  /* post row hover background */
   --accent:  #5c7a3a;  /* Moss — eyebrow, italic phrases, hover */
